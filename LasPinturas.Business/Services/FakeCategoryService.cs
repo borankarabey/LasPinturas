@@ -14,9 +14,10 @@ namespace LasPinturas.Business
         {
             categories = new List<Category>()
             {
-                new Category { Id=1, Name="Bilgisayar"},
-                new Category { Id=2, Name="Tablet"},
-                new Category { Id=3, Name="Telefon"}
+                new Category { Id=1, Name="Cubism"},
+                new Category { Id=2, Name="Expressionism"},
+                new Category { Id=3, Name="Impressionism"},
+                new Category { Id=4, Name="Post-Impressionism"}
             };
         }
         public IList<Category> GetCategories()
