@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Services\" />
+    <None Remove="MapperProfile\" />
+    <None Remove="Microsoft.Extensions.DependencyInjection" />
+    <None Remove="FluentValidation" />
+    <None Remove="AutoMapper.Extensions.Microsoft.DependencyInjection" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="MapperProfile\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LasPinturas.DataAccess\LasPinturas.DataAccess.csproj" />
+    <ProjectReference Include="..\LasPinturas.Dtos\LasPinturas.Dtos.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+</Project>
