@@ -1,3 +1,3 @@
 # LasPinturas
 Turkcell MVC Project
-E-Commerce with Famous Paintings
+// E-Commerce with Famous Paintings
