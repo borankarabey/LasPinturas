@@ -1,0 +1,70 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'MVC_Try._2' " />
+  <ItemGroup>
+    <Content Remove="wwwroot\" />
+    <Content Remove="Properties\launchSettings.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+    <Folder Include="Views\" />
+    <Folder Include="Properties\" />
+    <Folder Include="Models\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="ViewComponents\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Views\Cart\" />
+    <Folder Include="Views\Users\" />
+    <Folder Include="Views\Products\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\Cart\" />
+    <Folder Include="Views\Shared\Components\Menu\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\" />
+    <None Remove="Properties\" />
+    <None Remove="Models\" />
+    <None Remove="Controllers\" />
+    <None Remove="Microsoft.EntityFrameworkCore.Design" />
+    <None Remove="FluentValidation" />
+    <None Remove="Microsoft.VisualStudio.Web.CodeGeneration.Design" />
+    <None Remove="ViewComponents\" />
+    <None Remove="Extensions\" />
+    <None Remove="Views\Cart\" />
+    <None Remove="Views\Users\" />
+    <None Remove="Views\Products\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\Cart\" />
+    <None Remove="Views\Shared\Components\Menu\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\launchSettings.json">
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\LasPinturas\LasPinturas\Properties\launchSettings.json" Condition="'$(ExcludeConfigFilesFromBuildOutput)'=='true'">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+      <Link>launchSettings.json</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LasPinturas.Dtos\LasPinturas.Dtos.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.16">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="FluentValidation" Version="11.0.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+  </ItemGroup>
+</Project>
