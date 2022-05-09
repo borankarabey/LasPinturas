@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "P91YEpeJeo0jyQZk6mUCF8PUbQK7SDB5R3/4rgp7aG79wujB6GlzJ5h5KkjHad8Rr+owa9W2Pw7Rx9XyttP00A==",
+  "success": true,
+  "projectFilePath": "/Users/ismailkarabey/Documents/Algorithms/Turkcell/LasPinturas/LasPinturas.Entities/LasPinturas.Entities.csproj",
+  "expectedPackageFiles": [
+    "/Users/ismailkarabey/.nuget/packages/fluentvalidation/11.0.1/fluentvalidation.11.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+/Users/ismailkarabey/Documents/Algorithms/Turkcell/LasPinturas/LasPinturas.Entities/bin/Debug/net5.0/LasPinturas.Entities.deps.json
+/Users/ismailkarabey/Documents/Algorithms/Turkcell/LasPinturas/LasPinturas.Entities/bin/Debug/net5.0/LasPinturas.Entities.dll
+/Users/ismailkarabey/Documents/Algorithms/Turkcell/LasPinturas/LasPinturas.Entities/bin/Debug/net5.0/ref/LasPinturas.Entities.dll
+/Users/ismailkarabey/Documents/Algorithms/Turkcell/LasPinturas/LasPinturas.Entities/bin/Debug/net5.0/LasPinturas.Entities.pdb
+/Users/ismailkarabey/Documents/Algorithms/Turkcell/LasPinturas/LasPinturas.Entities/obj/Debug/net5.0/LasPinturas.Entities.csproj.AssemblyReference.cache
+/Users/ismailkarabey/Documents/Algorithms/Turkcell/LasPinturas/LasPinturas.Entities/obj/Debug/net5.0/LasPinturas.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ismailkarabey/Documents/Algorithms/Turkcell/LasPinturas/LasPinturas.Entities/obj/Debug/net5.0/LasPinturas.Entities.AssemblyInfoInputs.cache
+/Users/ismailkarabey/Documents/Algorithms/Turkcell/LasPinturas/LasPinturas.Entities/obj/Debug/net5.0/LasPinturas.Entities.AssemblyInfo.cs
+/Users/ismailkarabey/Documents/Algorithms/Turkcell/LasPinturas/LasPinturas.Entities/obj/Debug/net5.0/LasPinturas.Entities.csproj.CoreCompileInputs.cache
+/Users/ismailkarabey/Documents/Algorithms/Turkcell/LasPinturas/LasPinturas.Entities/obj/Debug/net5.0/LasPinturas.Entities.dll
+/Users/ismailkarabey/Documents/Algorithms/Turkcell/LasPinturas/LasPinturas.Entities/obj/Debug/net5.0/ref/LasPinturas.Entities.dll
+/Users/ismailkarabey/Documents/Algorithms/Turkcell/LasPinturas/LasPinturas.Entities/obj/Debug/net5.0/LasPinturas.Entities.pdb
