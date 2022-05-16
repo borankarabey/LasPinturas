@@ -53,6 +53,20 @@ namespace LasPinturas.DataAccess.Migrations
                 keyValue: 6,
                 column: "IsActive",
                 value: true);
+                
+            migrationBuilder.UpdateData(
+                table: "Products",
+                keyColumn: "Id",
+                keyValue: 7,
+                column: "IsActive",
+                value: true);
+                
+            migrationBuilder.UpdateData(
+                table: "Products",
+                keyColumn: "Id",
+                keyValue: 8,
+                column: "IsActive",
+                value: true);    
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
