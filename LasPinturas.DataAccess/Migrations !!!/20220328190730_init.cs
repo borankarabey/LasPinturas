@@ -48,17 +48,22 @@ namespace LasPinturas.DataAccess.Migrations
             migrationBuilder.InsertData(
                 table: "Categories",
                 columns: new[] { "Id", "Name" },
-                values: new object[] { 1, "Telefon" });
+                values: new object[] { 1, "Cubism" });
 
             migrationBuilder.InsertData(
                 table: "Categories",
                 columns: new[] { "Id", "Name" },
-                values: new object[] { 2, "Laptop" });
+                values: new object[] { 2, "Expressionism" });
 
             migrationBuilder.InsertData(
                 table: "Categories",
                 columns: new[] { "Id", "Name" },
-                values: new object[] { 3, "Tablet" });
+                values: new object[] { 3, "Impressionism" });
+                
+            migrationBuilder.InsertData(
+                table: "Categories",
+                columns: new[] { "Id", "Name" },
+                values: new object[] { 4, "Post-Impressionism" });
 
             migrationBuilder.InsertData(
                 table: "Products",
@@ -71,6 +76,15 @@ namespace LasPinturas.DataAccess.Migrations
                     { 4, 2, null, null, 0.14999999999999999, "https://productimages.hepsiburada.net/s/195/200-200/110000163717661.jpg", null, "Macbook pro", 1500.0 },
                     { 5, 2, null, null, 0.14999999999999999, "https://productimages.hepsiburada.net/s/195/200-200/110000163717661.jpg", null, "Dell XPS 13", 1500.0 },
                     { 6, 2, null, null, 0.14999999999999999, "https://productimages.hepsiburada.net/s/195/200-200/110000163717661.jpg", null, "Huawei", 1500.0 }
+                    
+                 { 1, 2, null, 0.10, "Edvard Munch, National Gallery of Norway", "https://commons.wikimedia.org/wiki/File:Edvard_Munch_-_The_Scream_-_Google_Art_Project.jpg", null, "The Scream", 130.0},
+                 { 2, 2, null, 0.15, "Amedeo Modigliani, Private Collection", "https://bayaiyi.com/wp-content/uploads/2020/06/Jeanne-Hebuterne-with-Necklace.jpg", null, "Jeanne Hébuterne with Hat and Necklace", 110.0},
+                 { 3, 4, null, 0.10, "Vincent van Gogh, Museum of Modern Art", "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1024px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg", null, "The Starry Night", 180.0},
+                 { 4, 4, null, 0.05, "Paul Cezanne, Musee d'Orsay", "https://upload.wikimedia.org/wikipedia/commons/6/69/Les_Joueurs_de_cartes%2C_par_Paul_C%C3%A9zanne.jpg", null, "Les Joueurs de Cartes", 190.0},
+                 { 5, 1, null, 0.10, "Pablo Picasso, Museo Nacional Centro de Arte Reina Sofia", "https://upload.wikimedia.org/wikipedia/tr/7/7f/Picasso_Guernica.jpg", null, "Guernica", 220.0},
+                 { 6, 1, null, 0.15, "Diego Rivera, MALBA", "https://upload.wikimedia.org/wikipedia/commons/1/11/Ram%C3%B3nG%C3%B3mezdelaSerna.JPG", null, "Portrait of Ramón Gómez de la Serna", 105.0},
+                 { 7, 3, null, 0.05, "Claude Monet, Metropolitan Museum of Art", "https://upload.wikimedia.org/wikipedia/commons/a/a0/Claude_Monet_-_Jardin_%C3%A0_Sainte-Adresse.jpg", null, "Garden at Sainte-Adresse", 160.0},
+                 { 8, 3, null, 0.10, "Edouard Manet, Musee d'Orsay", "https://upload.wikimedia.org/wikipedia/commons/9/90/Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg", null, "The Luncheon on the Grass", 150.0},
                 });
 
             migrationBuilder.CreateIndex(
