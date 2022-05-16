@@ -37,18 +37,24 @@ namespace LasPinturas.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            Name = "Telefon"
+                            Name = "Cubism"
                         },
                         new
                         {
                             Id = 2,
-                            Name = "Laptop"
+                            Name = "Expressionism"
                         },
                         new
                         {
                             Id = 3,
-                            Name = "Tablet"
-                        });
+                            Name = "Impressionism"
+                        }
+                        new
+                        {
+                            Id = 4,
+                            Name = "Post-Impressionism"
+                        }     
+                    );
                 });
 
             modelBuilder.Entity("LasPinturas.Entities.Product", b =>
@@ -96,62 +102,74 @@ namespace LasPinturas.DataAccess.Migrations
                         new
                         {
                             Id = 1,
-                            CategoryId = 1,
-                            Discount = 0.14999999999999999,
-                            ImageUrl = "https://productimages.hepsiburada.net/s/65/200-200/110000007077895.jpg",
-                            IsActive = true,
-                            Name = "IPhone",
-                            Price = 1500.0
+                            CategoryId = 2,
+                            Discount = 0.10,
+                            ImageUrl = "https://commons.wikimedia.org/wiki/File:Edvard_Munch_-_The_Scream_-_Google_Art_Project.jpg",
+                            Name = "The Scream",
+                            Price = 130.0
                         },
                         new
                         {
                             Id = 2,
-                            CategoryId = 1,
-                            Discount = 0.14999999999999999,
-                            ImageUrl = "https://productimages.hepsiburada.net/s/65/200-200/110000007077895.jpg",
-                            IsActive = true,
-                            Name = "Oppo",
-                            Price = 1500.0
+                            CategoryId = 2,
+                            Discount = 0.15,
+                            ImageUrl = "https://bayaiyi.com/wp-content/uploads/2020/06/Jeanne-Hebuterne-with-Necklace.jpg",
+                            Name = "Jeanne Hébuterne with Hat and Necklace",
+                            Price = 110.0
                         },
                         new
                         {
                             Id = 3,
-                            CategoryId = 1,
-                            Discount = 0.14999999999999999,
-                            ImageUrl = "https://productimages.hepsiburada.net/s/65/200-200/110000007077895.jpg",
-                            IsActive = true,
-                            Name = "Xiaomi",
-                            Price = 1500.0
+                            CategoryId = 4,
+                            Discount = 0.10,
+                            ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1024px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+                            Name = "The Starry Night",
+                            Price = 180.0
                         },
                         new
                         {
                             Id = 4,
-                            CategoryId = 2,
-                            Discount = 0.14999999999999999,
-                            ImageUrl = "https://productimages.hepsiburada.net/s/195/200-200/110000163717661.jpg",
-                            IsActive = true,
-                            Name = "Macbook pro",
-                            Price = 1500.0
+                            CategoryId = 4,
+                            Discount = 0.05,
+                            ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/6/69/Les_Joueurs_de_cartes%2C_par_Paul_C%C3%A9zanne.jpg",
+                            Name = "Les Joueurs de Cartes",
+                            Price = 190.0
                         },
                         new
                         {
                             Id = 5,
-                            CategoryId = 2,
-                            Discount = 0.14999999999999999,
-                            ImageUrl = "https://productimages.hepsiburada.net/s/195/200-200/110000163717661.jpg",
-                            IsActive = true,
-                            Name = "Dell XPS 13",
-                            Price = 1500.0
+                            CategoryId = 1,
+                            Discount = 0.10,
+                            ImageUrl = "https://upload.wikimedia.org/wikipedia/tr/7/7f/Picasso_Guernica.jpg",
+                            Name = "Guernica",
+                            Price = 220.0
                         },
                         new
                         {
                             Id = 6,
-                            CategoryId = 2,
-                            Discount = 0.14999999999999999,
-                            ImageUrl = "https://productimages.hepsiburada.net/s/195/200-200/110000163717661.jpg",
-                            IsActive = true,
-                            Name = "Huawei",
-                            Price = 1500.0
+                            CategoryId = 1,
+                            Discount = 0.15,
+                            ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/1/11/Ram%C3%B3nG%C3%B3mezdelaSerna.JPG",
+                            Name = "Portrait of Ramón Gómez de la Serna",
+                            Price = 105.0
+                        }
+                        new
+                        {
+                            Id = 7,
+                            CategoryId = 3,
+                            Discount = 0.05,
+                            ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/a/a0/Claude_Monet_-_Jardin_%C3%A0_Sainte-Adresse.jpg",
+                            Name = "Garden at Sainte-Adresse",
+                            Price = 160.0
+                        }
+                        new
+                        {
+                            Id = 8,
+                            CategoryId = 3,
+                            Discount = 0.10,
+                            ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/9/90/Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg",
+                            Name = "The Luncheon on the Grass",
+                            Price = 150.0
                         });
                 });
 
