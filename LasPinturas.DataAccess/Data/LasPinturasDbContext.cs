@@ -32,7 +32,7 @@ namespace LasPinturas.DataAccess.Data
                 new Category { Id=1, Name="Cubism"},
                 new Category { Id=2, Name="Expressionism"},
                 new Category { Id=3, Name="Impressionism"},
-                new Category { Id=4, Name="Post-Impressionism",               
+                new Category { Id=4, Name="Post-Impressionism"},               
 
                 );
 
