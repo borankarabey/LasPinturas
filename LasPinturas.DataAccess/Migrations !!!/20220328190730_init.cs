@@ -69,14 +69,7 @@ namespace LasPinturas.DataAccess.Migrations
                 table: "Products",
                 columns: new[] { "Id", "CategoryId", "CreatedDate", "Descriptipn", "Discount", "ImageUrl", "ModifiedDate", "Name", "Price" },
                 values: new object[,]
-                {
-                    { 1, 1, null, null, 0.14999999999999999, "https://productimages.hepsiburada.net/s/65/200-200/110000007077895.jpg", null, "IPhone", 1500.0 },
-                    { 2, 1, null, null, 0.14999999999999999, "https://productimages.hepsiburada.net/s/65/200-200/110000007077895.jpg", null, "Oppo", 1500.0 },
-                    { 3, 1, null, null, 0.14999999999999999, "https://productimages.hepsiburada.net/s/65/200-200/110000007077895.jpg", null, "Xiaomi", 1500.0 },
-                    { 4, 2, null, null, 0.14999999999999999, "https://productimages.hepsiburada.net/s/195/200-200/110000163717661.jpg", null, "Macbook pro", 1500.0 },
-                    { 5, 2, null, null, 0.14999999999999999, "https://productimages.hepsiburada.net/s/195/200-200/110000163717661.jpg", null, "Dell XPS 13", 1500.0 },
-                    { 6, 2, null, null, 0.14999999999999999, "https://productimages.hepsiburada.net/s/195/200-200/110000163717661.jpg", null, "Huawei", 1500.0 }
-                    
+                {   
                  { 1, 2, null, 0.10, "Edvard Munch, National Gallery of Norway", "https://commons.wikimedia.org/wiki/File:Edvard_Munch_-_The_Scream_-_Google_Art_Project.jpg", null, "The Scream", 130.0},
                  { 2, 2, null, 0.15, "Amedeo Modigliani, Private Collection", "https://bayaiyi.com/wp-content/uploads/2020/06/Jeanne-Hebuterne-with-Necklace.jpg", null, "Jeanne Hébuterne with Hat and Necklace", 110.0},
                  { 3, 4, null, 0.10, "Vincent van Gogh, Museum of Modern Art", "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1024px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg", null, "The Starry Night", 180.0},
