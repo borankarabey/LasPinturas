@@ -50,7 +50,7 @@ namespace LasPinturas.DataAccess.Migrations
                         {
                             Id = 3,
                             Name = "Impressionism"
-                        }
+                        },
                         new
                         {
                             Id = 4,
@@ -151,7 +151,7 @@ namespace LasPinturas.DataAccess.Migrations
                             ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/1/11/Ram%C3%B3nG%C3%B3mezdelaSerna.JPG",
                             Name = "Portrait of Ramón Gómez de la Serna",
                             Price = 105.0
-                        }
+                        },
                         new
                         {
                             Id = 7,
@@ -160,7 +160,7 @@ namespace LasPinturas.DataAccess.Migrations
                             ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/a/a0/Claude_Monet_-_Jardin_%C3%A0_Sainte-Adresse.jpg",
                             Name = "Garden at Sainte-Adresse",
                             Price = 160.0
-                        }
+                        },
                         new
                         {
                             Id = 8,
